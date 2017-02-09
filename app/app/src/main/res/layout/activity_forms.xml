@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/tvname"
+            android:layout_marginTop="41dp"
+            android:drawableLeft="@mipmap/ic_name"
+            android:hint="Name"
+            android:layout_alignParentStart="true"
+            android:layout_toStartOf="@+id/tvweight"
+            android:layout_alignEnd="@+id/tvweight" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/tvweight"
+            android:layout_alignTop="@+id/tvheight"
+            android:layout_alignParentEnd="true"
+            android:drawableLeft="@mipmap/ic_weight"
+            android:hint="Weight (lbs)"
+            android:layout_toEndOf="@+id/tvheight" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            android:id="@+id/tvheight"
+            android:layout_below="@+id/tvname"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="43dp"
+            android:drawableLeft="@mipmap/ic_height"
+            android:hint="Height (cm)"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Next"
+            android:id="@+id/button_next"
+            android:layout_below="@+id/tvage"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="39dp"
+            android:layout_alignParentEnd="true" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/tvage"
+            android:layout_marginTop="41dp"
+            android:drawableLeft="@mipmap/ic_calendar"
+            android:hint="Age (years)"
+            android:layout_below="@+id/tvheight"
+            android:layout_alignParentStart="true"
+            android:layout_toStartOf="@+id/tvweight" />
+    </RelativeLayout>
+</LinearLayout>
