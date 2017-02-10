@@ -1,6 +1,6 @@
 App criado na discplina Mobile Development at Missouri State University
 
-O App requisita ao usuário algumas informações, calcula o IMC e a depender do objetivo e da nível, recomenda exercícios de acordo com as informações.
+O App requisita ao usuário algumas informações, calcula o IMC e a depender do objetivo e do nível, recomenda exercícios de acordo com as informações.
 
 <center><img src="https://cloud.githubusercontent.com/assets/12241711/22808154/460e9436-ef09-11e6-8bfa-467719377d1b.jpg" height="250" width="150">
 <img src="https://cloud.githubusercontent.com/assets/12241711/22808172/50999b62-ef09-11e6-880d-4abc4990e57b.jpg" height="250" width="150">
